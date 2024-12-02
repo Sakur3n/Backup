@@ -7,7 +7,8 @@ import time
 linha_lista = []
 def lista_produtos (pagina):
     url = 'https://app.omie.com.br/api/v1/geral/produtos/'
-    
+    app_key = 'Chave de acesso'
+    app_secret = 'Chave secreta'
 
     headers = {
         'Content-Type': 'application/json',
